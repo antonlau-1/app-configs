@@ -1,0 +1,33 @@
+# macOS-specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor and IDE files
+*.swp          # Vim swap files
+*~.nib         # Xcode interface builder temp files
+*.sublime-*    # Sublime Text files
+.vscode/       # Visual Studio Code settings
+.idea/         # JetBrains IDEs (e.g., IntelliJ, PyCharm)
+*.iml          # IntelliJ module files
+
+# Logs and temporary files
+*.log          # Log files
+*.tmp          # Temporary files
+*.bak          # Backup files
+*.cache        # Cache files
+
+# Build outputs and binaries
+*.o            # Object files
+*.obj          # Object files
+*.dylib        # macOS dynamic libraries
+
+# Environment and configuration files
+.env           # Environment variables
+*.env.local    # Local environment files
+*.env.*        # Other environment variants
+*.secret       # Secret files
+
+# Miscellaneous
+*.bak          # Backup files
+*.gho          # Ghost backup files
