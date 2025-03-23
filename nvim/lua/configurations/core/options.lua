@@ -13,7 +13,7 @@ opt.ignorecase = true
 opt.smartcase = true
 
 opt.termguicolors = false
-opt.background = "dark"
+opt.background = "light"
 opt.signcolumn = "yes"
 
 opt.backspace = "indent,eol,start"
@@ -22,4 +22,3 @@ opt.clipboard:append("unnamedplus")
 
 opt.splitright = true
 opt.splitbelow = true
-
