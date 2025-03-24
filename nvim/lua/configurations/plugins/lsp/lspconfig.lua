@@ -64,6 +64,7 @@ return {
 			["lua_ls"] = function()
 				lspconfig.lua_ls.setup({
 					capabilities = capabilities,
+					root_dir = lspconfig.util.root_pattern(".git", "init.lua") or vim.fn.getcwd(),
 					settings = {
 						Lua = {
 							diagnostics = {
